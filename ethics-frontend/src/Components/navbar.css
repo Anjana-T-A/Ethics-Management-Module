@@ -1,6 +1,6 @@
 /* src/components/NavBar.css */
 .navbar {
-    background-color: rgb(166, 219, 240);
+    background-color:#F8F1E5;
     padding: 1rem;
     position: fixed; /* Fixes the navbar at the top */
     top: 90px;       /* Adjust this value based on the height of your header */
@@ -18,7 +18,7 @@
 }
 
 .nav-item a {
-    color: white;
+    color: black;
     text-decoration: none;
     padding: 0.5rem 1rem;
 }

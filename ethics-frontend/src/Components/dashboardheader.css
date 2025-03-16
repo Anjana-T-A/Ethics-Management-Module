@@ -1,6 +1,6 @@
 /* Header styling */
 .header {
-    background-color: #ffffff;
+    background-color: #1B1F3B;
     color: rgb(40, 76, 131);
     padding: 2rem;
     display: flex;
@@ -15,6 +15,7 @@
 
 .header-title {
     margin: 0;
+    color:azure;
 }
 
 /* User info container */
@@ -44,11 +45,17 @@
 
 /* Logout button */
 .logout-button {
-    background-color: #71abf7;
+    background-color: #5AB9EA;
     color: white;
     margin-left: 1rem;
 }
 
 .logout-button:hover {
     background-color: #5a94e8;
+}
+
+.user-name {
+    color: azure; /* Change to any color you want */
+    font-weight: bold;
+    font-size: 18px;
 }

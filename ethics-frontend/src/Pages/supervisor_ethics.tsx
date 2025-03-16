@@ -10,7 +10,7 @@ const SupervisorEthics: React.FC = () => {
 
     return (
         <div className="app-container">
-            <Header title="University Research Management System" userName="SuperVisor" />
+            <Header title="University Research Management System" userName="Supervisor" />
             <SupervisorEthicsNavBar />
             <main className="main-content">
                 <h1>Apply for Ethics Approval</h1>
