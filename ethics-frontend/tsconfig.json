@@ -1,8 +1,12 @@
 // {
 //   "files": [],
 //   "references": [
-//     { "path": "./tsconfig.app.json" },
-//     { "path": "./tsconfig.node.json" }
+//     {
+//       "path": "./tsconfig.app.json"
+//     },
+//     {
+//       "path": "./tsconfig.node.json"
+//     }
 //   ]
 // }
 {
@@ -16,5 +20,11 @@
       "ES2017",
       "ESNext"
     ]
-  }
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "eslint.config.js"
+  ]
 }
