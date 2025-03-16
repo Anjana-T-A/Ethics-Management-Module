@@ -1,17 +1,18 @@
-// {
-//   "files": [],
-//   "references": [
-//     {
-//       "path": "./tsconfig.app.json"
-//     },
-//     {
-//       "path": "./tsconfig.node.json"
-//     }
-//   ]
-// }
 {
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ],
   "compilerOptions": {
-    "moduleResolution": "node",
+    "outDir": "dist",
+    "rootDir": "./",
+    "module": "Preserve",
+    "moduleResolution": "bundler",
     "allowJs": true,
     "jsx": "react-jsx",
     "esModuleInterop": true,
@@ -21,10 +22,10 @@
       "ESNext"
     ]
   },
-  "include": [
-    "src"
-  ],
   "exclude": [
-    "eslint.config.js"
+    "node_modules",
+    "dist",
+    "build",
+    "eslint.config.js" // Exclude ESLint config file
   ]
 }

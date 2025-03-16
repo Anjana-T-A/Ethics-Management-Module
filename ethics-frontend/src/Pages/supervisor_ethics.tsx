@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import Footer from '../components/footer';
-import Header from '../components/header';
+import Footer from '../Components/footer';
+import Header from '../Components/header';
 import SupervisorEthicsNavBar from '../Components/supervisorethicsnavbar';
-import EthicsForm from '../components/ethicsform'; // Import the form
+import EthicsForm from '../Components/ethicsform'; // Import the form
 import './supervisor.css';
 
 const SupervisorEthics: React.FC = () => {
